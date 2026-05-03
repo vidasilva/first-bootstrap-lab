@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="./css/main.min.css">
+    <title>Title</title>
+</head>
+
+<body class="bg-primarylight">
+    <nav class="navbar navbar-expand bg-primary border-bottom">
+        <div class="container-fluid">
+            <a href="index.html" class="navbar-brand text-dark"><img src="../img/hotel-key-icon.png" alt="brand logo"
+                    style="width: 2.5em;"></a>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container mt-4 p-5 bg-white rounded">
+            <div class="row">
+                <div class="col-lg-5 my-5">
+                    <div class="d-grid gap-2 container bg-primarylight border rounded border-primary border-1">
+                        <div class="row h1 pt-3 text-wrap">
+                            <h1><b>Sinta o conforto acolhedor de nossas hospedagens</b></h1>
+                        </div>
+                        <div class="row text-wrap mb-5">
+                            <p style="font-size: x-large;">Hospede-se em nossos hotéis com quartos
+                                a
+                                partir de
+                                R$100,00.</p>
+                        </div>
+                        <div class="row ps-2 pb-4 mt-5 w-50">
+                            <a href="index.html" class="btn btn-primary rounded-pill" id="botao">SAIBA MAIS</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <img src="resources/beach-hotel.jpg" class="rounded w-100 h-100" alt="Image">
+                </div>
+            </div>
+            <div class="row my-5 pt-5 border-top border-tertiary">
+                <div class="span text-center">
+                    <h2>
+                        <b>POR QUE SE HOSPEDAR ME NOSSOS HOTEIS?</b>
+                    </h2>
+                </div>
+            </div>
+            <div class="row my-5 gy-5">
+                <div class="col-md-6 d-flex">
+                    <div class="col-md-3">
+                        <div class="col d-flex justify-content-end">
+                            <img src="resources/teacup.png"
+                                class="bg-secondarylight rounded-circle border border-3 border-secondark"
+                                alt="Tea cup icon" style="width: 5em;">
+                        </div>
+                    </div>
+                    <div class="ps-3 align-content-center flex-fill">
+                        <div class="row">
+                            <h4><b>Delicioso café da manhã</b></h4>
+                        </div>
+                        <div class="row">
+                            <p class="mb-0">Incluso em todas as diárias</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex">
+                    <div class="col-md-3">
+                        <div class="col d-flex justify-content-end">
+                            <img src="resources/local.png"
+                                class="bg-tertiarylight rounded-circle border border-3 border-tertiarydark"
+                                alt="Local icon" style="width: 5em;">
+                        </div>
+                    </div>
+                    <div class="ps-3 align-content-center flex-fill">
+                        <div class="row">
+                            <h4><b>Fácil acesso</b></h4>
+                        </div>
+                        <div class="row">
+                            <p class="mb-0">Perto dos principais pontos turísticos</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row my-5">
+                <div class="container bg-secondarylight text-secondark border border-1 border-secondary rounded">
+                    <div class="row my-3 text-center">
+                        <h3><b>NOSSOS QUARTOS</b></h3>
+                    </div>
+                    <div class="row mb-5 px-3 py-5 gy-5">
+                        <div class="col-lg-4 text-center mb-5">
+                            <img src="resources/single-room.jpg" alt="Place holder image" class="w-100 h-100 rounded">
+                            <h3 class="mt-4">Suíte Solteiro</h3>
+                        </div>
+                        <div class="col-lg-4 text-center mb-5">
+                            <img src="resources/double-room.jpg" alt="Place holder image" class="w-100 h-100 rounded">
+                            <h3 class="mt-4">Suíte Casal</h3>
+                        </div>
+                        <div class="col-lg-4 text-center mb-5">
+                            <img src="resources/suite-master.jpg" alt="Place holder image" class="w-100 h-100 rounded">
+                            <h3 class="mt-4">Suíte Master</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-primary">
+        <div class="container-fluid mt-5 pb-5 border border-top border-1 border-dark">
+            <div class="container">
+                <div class="row mt-3 gy-3">
+                    <div class="col-md-4 mb-3 text-primarylight">
+                        <div class="row text-wrap">
+                            <h3><b>FAÇA SUA RESERVA</b></h3>
+                        </div>
+                        <div class="row my-3 pe-3 text-wrap">
+                            <p>Entre em contato conosco informando as datas desejadas. Lhe retornaremos informando a
+                                disponibilidade e repassando detalhes da reserva.</p>
+                        </div>
+                    </div>
+                    <div class="col px-5 text-primarylight">
+                        <form action="submit" method="post">
+                            <div class="row row-cols-1 row-cols-md-2 gy-4">
+                                <div class="col">
+                                    <label for="name" class="form-label">Nome</label>
+                                    <input type="text" name="name" id="name" class="form-control bg-primarylight">
+                                </div>
+                                <div class="col">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" name="email" id="email" class="form-control bg-primarylight">
+                                </div>
+                                <div class="col">
+                                    <label for="check-in" class="form-label">Data de Entrada</label>
+                                    <input type="date" name="check-in" id="check-in"
+                                        class="form-control bg-primarylight">
+                                </div>
+                                <div class="col">
+                                    <label for="check-out" class="form-label">Data de Saída</label>
+                                    <input type="date" name="check-out" id="check-out"
+                                        class="form-control bg-primarylight">
+                                </div>
+                                <div class="col">
+                                    <label for="obs" class="form-label">Observações</label>
+                                    <textarea name="obs" id="obs" rows="5"
+                                        class="form-control bg-primarylight"></textarea>
+                                </div>
+                                <div class="col">
+                                    <div class="row row-cols-2">
+                                        <div class="col">
+                                            <label for="adults" class="form-label">Adultos</label>
+                                            <input type="number" name="adults" id="adults"
+                                                class="form-control bg-primarylight">
+                                        </div>
+                                        <div class="col">
+                                            <label for="kids" class="form-label">Crianças</label>
+                                            <input type="number" name="kids" id="kids"
+                                                class="form-control bg-primarylight">
+                                        </div>
+                                    </div>
+                                    <button type="button"
+                                        class="btn btn-secondark mt-5 w-100 rounded-pill">Enviar</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

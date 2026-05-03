@@ -1,0 +1,60 @@
+# Atividade 4 (english translation at the bottom of the file)
+
+
+## Contexto
+
+A equipe de desenvolvimento está empenhada em melhorias na qualidade dos websites criados. Uma das diretrizes de desenvolvimento agora é que os sites precisam ser responsivos – ou seja, devem se comportar bem em diferentes resoluções de tela. Para isso, está sendo usado o framework Bootstrap, que traz ferramentas úteis nessa tarefa. Você deve montar uma página responsiva, solicitada para um hotel da região, usando Bootstrap.
+
+
+## Atividade
+
+Usando o Bootstrap, crie uma página que corresponda ao seguinte wireframe. Escolha cores e imagens harmoniosas com o contexto do website.
+
+
+## Entrega
+
+No espaço dedicado à entrega da atividade, envie um arquivo compactado (RAR, ZIP ou 7z) com os arquivos .html, .css e .js desenvolvidos.
+
+
+## Dica de leitura
+
+Para esta atividade, leia os seguintes materiais:
+Bibliotecas de front-end: tecnologias, aplicabilidade e jQuery
+Responsividade: conceito, front-end para ambiente mobile, técnicas e ferramentas
+Web standards: padrões sugeridos pelo World Wide Web Consortium (W3C) e recomendações de boas práticas
+
+
+## Avaliação
+
+Nesta atividade, você será avaliado no indicador:
+Aplica códigos e tecnologias de responsividade na página web conforme layout e tecnologias de front-end.
+
+# -------------------------------------------------------------------------------------------------------------------------------------------------------- #
+# Translation to en
+
+## Activity 4 
+
+
+## Context 
+
+The development team is committed to improving the quality of the websites created. One of the development guidelines now is that websites need to be responsive – that is, they must behave well on different screen resolutions. For this, the Bootstrap framework is being used, which brings useful tools in this task. You must put together a responsive page, requested for a hotel in the area, using Bootstrap. 
+
+
+## Activity 
+
+Using Bootstrap, create a page that corresponds to the following wireframe. Choose colors and images that are harmonious with the context of the website.
+
+
+## Delivery 
+
+In the space dedicated to the delivery of the activity, send a compressed file (RAR, ZIP or 7z) with the.html,.css and.js files developed. 
+
+
+## Reading tip 
+
+For this activity, read the following materials: Front-End Libraries: Technologies, Applicability, and jQuery Responsiveness: concept, front-end for the mobile environment, techniques and tools Web standards: standards suggested by the World Wide Web Consortium (W3C) and recommendations for good practices
+
+
+## Evaluation 
+
+In this activity, you will be evaluated on the indicator: Applies responsive codes and technologies on the web page according to layout and front-end technologies.

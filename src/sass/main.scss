@@ -1,0 +1,24 @@
+// custom variables
+$primary: #006600;
+$secondary: #660000;
+
+// import the functions and variables
+@import '../bootstrap/scss/functions';
+@import '../bootstrap/scss/variables';
+
+$custom-theme-colors: (
+	'secondark': #470000,
+	'secondarylight': #ffcccc,
+	'tertiary': #003a66,
+	'tertiarydark': #002947,
+	'tertiarylight': #cce9ff,
+	'primarylight': #f5fff5,
+);
+
+$theme-colors: map-merge(
+	$map1: $custom-theme-colors,
+	$map2: $theme-colors,
+);
+
+// import boostrap
+@import '../bootstrap/scss/bootstrap';
