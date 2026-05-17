@@ -3,7 +3,7 @@
 A responsive front-end landing page for a regional hotel, developed as part of a Software Development Technical Level Course. The project applies modern CSS frameworks and mobile-first responsiveness techniques to meet professional web standards.
 
 ## 🔗 Live Demo
-View the live project here: **[Live GitHub Pages Link](https://vidasilva.github.io/first-bootstrap-lab/src/)**
+View the live project **[here:](https://vidasilva.github.io/first-bootstrap-lab/src/)**
 
 ## 🎯 Project Objective
 The goal was to build a fully responsive landing page based on a specific wireframe, ensuring that the visual layout behaves seamlessly across all screen sizes and mobile environments.
